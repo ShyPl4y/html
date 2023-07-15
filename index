@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/betfuryres50.png" type="image/x-icon">
+    <title>MSTEC</title>
+</head>
+<body>
+    <h1>What is Lorem Ipsum ?</h1>
+    <hr>
+
+    <p>Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source</p>
+
+    <!-- Commentary -->
+
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+    <h1>Principais formatacoes</h1>
+    <h2>Negrito / Destaques</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a
+    tag B (nao semantica).</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong></p>
+    <h2>Italico</h2>
+    <p><i>termo em italico</i></p>
+    <p><mark style="background-color: rgb(145, 168, 68);">Texto marcado</mark> com tag mark</p>
+
+    <p>x<sup>20</sup>+3</p>
+    <p>H<sub>2</sub>O</p>
+
+    <h2>Codigo-fonte</h2>
+    <p><code>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</code></p>
+
+    <pre>
+        <code>
+    num = int(input("Digita um numero"))
+    if num % 2 == 0:
+        print(f"O numero {num} e PAR")
+    else:
+        print(f" O numero {num} e IMPAR")
+        </code>
+    </pre>
+
+    <h2>Listas ordenadas</h2>
+    <ol type="I">   <!-- 1 A a I i -->
+        <li>Bitcoin</li>
+        <li>Ethereum</li>
+        <li>Doge</li>
+        <li>BNB</li>
+    </ol>
+
+    <h2>Listas nao ordenadas</h2>
+    <ul type="square"> <!-- disc circle square -->
+        <li>Bitcoin</li>
+        <li>Ethereum</li>
+        <li>Doge</li>
+        <li>BNB</li>
+    </ul>
+
+     <h2>Crypto e Fiduciaria</h2>
+    <ol type="I">
+        <li>Crypto</li>
+        <ol type="A" start="1">
+            <li>Bitcoin</li>
+            <li>Ethereum</li>
+            <li>Solana</li>
+            <li>BNB</li>
+        </ol>
+        <li>Fiduciaria</li>
+        <ul type="disc">
+            <li>EURO</li>
+            <li>DOLAR</li>
+            <li>LIBRA</li>
+            <li>RUBLO</li>
+            <li>YUAN</li>
+        </ul>
+    </ol>
+
+    <h2>Links Externos</h2>
+    <p>Ao clicar em <a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a> vais ver redirecionado para o Youtube.com</p>
+
+    <h2>Links Internos</h2>
+    <p><a href="dice.html" rel="next">DICE GAME</a></p>
+    <p><a href="jogos/blackjack.html">BlackJack GAME</a></p>
+
+    <h2></h2>
+
+    <p>Symbols
+
+    <br>&reg;<br>
+        &copy;<br>
+        &trade;<br>
+        &euro;<br>
+        &cent;<br>
+        &dollar;<br>
+
+    </p>
+    <p>Emoji
+
+        <br>&#x1F60B;
+        <br>&#x1F4C8;
+        <br>&#x1F3B0;
+        <br>&#x1F3B2;
+
+    </p>
+
+    <h1>Imagem dinamica</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <br>
+    <img src="img/Logo-HTML5.png" alt="Logo HTML5">
+    <br>
+    <img src="img/logo-css3.png" alt="Logo CSS3">
+    <br>
+    <img src="https://logospng.org/download/javascript/logo-javascript-icon-512.png" alt="Logo JavaScript">
+
+</body>
+</html>
